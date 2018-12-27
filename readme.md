@@ -8,7 +8,8 @@ Thus, over the holidays I dug in to see how annoying it'd be to do. This impleme
 Also, side notes:
 
 - There are two types of on-demand VPNs, which this uses - Personal and Enterprise. By using `NETunnelProvider`, the VPN profile counts as an Enterprise one, which trumps Personal in cases where two might get loaded.
-- I wager CloudFlare probably goes much deeper than this, as some old documentation buried on Apple's site indicates that connections that use POSIX Sockets and `CFSocket` technically won't go through an on-demand VPN. If this is still true, I can't imagine they'd have overlooked it like this approach does.
+- I wager CloudFlare probably goes much deeper than this, as some [old documentation buried on Apple's site indicates that connections that use POSIX Sockets and `CFSocket` technically won't go through an on-demand VPN](https://developer.apple.com/library/archive/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/CommonPitfalls/CommonPitfalls.html#//apple_ref/doc/uid/TP40010220-CH4-SW2). If this is still true, I can't imagine they'd have overlooked it like this approach does.
+- While macOS supports `NetworkExtension` APIs, I have to wonder if the old `SystemConfiguration` APIs weren't slightly more useful for what's intended here.
 - You probably want a true VPN instead of this, but this isn't a bad approach either in the grand scheme of things. Probably one where doing your research is worthwhile. :)
 
 ## Screenshots
