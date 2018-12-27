@@ -8,8 +8,8 @@ Thus, over the holidays I dug in to see how annoying it'd be to do. This impleme
 Also, side note: you probably want a true VPN instead of this, but this isn't a bad approach either in the grand scheme of things. Probably one where doing your research is worthwhile. :)
 
 ## Screenshots
-![Disconnected](https://github.com/ryanmcgrath/four/blob/master/screenshots/disconnected.png?raw=true)
-![Connected](https://github.com/ryanmcgrath/flour/blob/master/screenshots/connected.png?raw=true)
+![Disconnected](https://github.com/ryanmcgrath/1.1.1.1-macOS/blob/master/screenshots/disconnected.png?raw=true)
+![Connected](https://github.com/ryanmcgrath/1.1.1.1-macOS/blob/master/screenshots/connected.png?raw=true)
 
 ## What else is here?
 This repo could also be used as scaffolding/reference for a nibless Swift Cocoa app, if you're into that sorta thing. I personally think Interface Builder makes anyone who deals with UI in code (web devs, etc) groan out loud, so maybe this goes towards showing it's not _that_ difficult or outlandish to do otherwise.
