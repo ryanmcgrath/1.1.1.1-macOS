@@ -1,3 +1,6 @@
+# Update Aug 25, 2020
+_[CloudFlare now has a beta of their macOS (and Windows) specific 1.1.1.1 app!](https://1.1.1.1/beta/) I encourage you to go try that instead of tinkering with this. I'll leave the code up in case it's helpful for anyone, but will be archiving the repository immediately. Thanks for the interest!_
+
 # 1.1.1.1 on macOS
 [CloudFlare has a cool app for iOS devices](https://itunes.apple.com/us/app/1-1-1-1-faster-internet/id1423538627) that enables easy switching to faster, private, and encrypted DNS queries. While switching DNS isn't exactly difficult, I found the user experience to be interesting - very easy to configure, just tap a switch and you're in.
 
